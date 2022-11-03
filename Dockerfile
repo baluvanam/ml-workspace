@@ -132,7 +132,7 @@ RUN \
         # style sheet preprocessor
         less \
         # Print dir tree
-        tree \
+        #tree \
         # Bash autocompletion functionality
         bash-completion \
         # ping support
