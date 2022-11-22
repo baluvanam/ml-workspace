@@ -135,7 +135,7 @@ RUN \
         sqlite3 \
         # XML Utils
         xmlstarlet \
-        # GNU parallel
+        # GNU parallel --executing jobs in parallel using one or more computers.
         parallel \
         #  R*-tree implementation - Required for earthpy, geoviews (3MB)
         libspatialindex-dev \
