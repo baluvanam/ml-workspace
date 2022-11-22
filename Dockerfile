@@ -64,7 +64,9 @@ RUN \
     apt-get update && \
     apt-get install -y --no-install-recommends \
         # This is necessary for apt to access HTTPS sources:
+        # used for https
         apt-transport-https \
+        # GnuPG is a tool for secure communication
         gnupg-agent \
         gpg-agent \
         gnupg2 \
