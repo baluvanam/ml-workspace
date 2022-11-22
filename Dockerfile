@@ -66,29 +66,47 @@ RUN \
         # This is necessary for apt to access HTTPS sources:
         # used for https
         apt-transport-https \
-        # GnuPG is a tool for secure communication
-        gnupg-agent \
+        # GnuPG is a tool for secure communication & manage secret (private) keys independently from any protocol
+        #gnupg-agent \
         gpg-agent \
         gnupg2 \
+        # certificate authority (CA) is a trusted entity that issues Secure Sockets Layer (SSL) certificates.
         ca-certificates \
+        # build-essentials packages are the form of meta-packages that are essential to compile software
         build-essential \
+        # pkg-config is a helper tool used when compiling applications and libraries
         pkg-config \
+        # Without it, you would need to add and remove repositories (such as PPAs)
         software-properties-common \
+        # provides a list of files that are opened.
         lsof \
+        # controlling the network subsystem of the Linux kernel 
         net-tools \
+        #  easy-to-use client-side URL transfer library (OpenSSL flavour)
         libcurl4 \
         curl \
         wget \
+        # schedule jobs to run at specific times or intervals.
         cron \
+        # Generate private keys, create CSRs, install your SSL/TLS certificate, and identify certificate information.
         openssl \
+        # controlling TCP / IP networking and traffic control in Linux.
         iproute2 \
+        # displaying information about running processes.
         psmisc \
+        # This is very useful for running multiple programs with a single connection, such as when you're remotely connecting to a machine using Secure Shell (SSH)
         tmux \
+        # creates and verifies signatures on Debian archives (. deb-files). Use higher-level tools to install and remove packages from your syst
         dpkg-sig \
+        # Universally Unique Identifier(UUID) provide a unique identity to any collection of information within a computing system  
         uuid-dev \
+        # C Shell (csh) is a command language interpreter 
         csh \
+        # xclip provides a conduit between commands you run in a terminal window and the clipboard in a Linux graphical desktop environment.
         xclip \
+        #clinfo prints all available information about all OpenCL platforms available on the system and the devices they expose 
         clinfo \
+        
         time \
         libssl-dev \
         libgdbm-dev \
