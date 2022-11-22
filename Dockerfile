@@ -117,8 +117,9 @@ RUN \
         libncursesw5-dev \
         # required by pyenv
         libreadline-dev \
-        libedit-dev \
+        libedit-dev \	
         xz-utils \
+	#standard sysadmin tool.use it to extract information from files and your system
         gawk \
         # Simplified Wrapper and Interface Generator (5.8MB) - required by lots of py-libs
         swig \
@@ -167,11 +168,11 @@ RUN \
         rsync \
         # sqlite3 driver - required for pyenv
         libsqlite3-dev \
-        # VCS:
+        # VCS(Version control System ):
         git \
         subversion \
         jed \
-        # odbc drivers
+        # odbc drivers Open Database Connectivity interface that allows applications to access data in database management systems (DBMS) using SQL as a standard for accessing the data
         unixodbc unixodbc-dev \
         # Image support
         libtiff-dev \
