@@ -74,7 +74,7 @@ RUN \
         software-properties-common \
         lsof \
         net-tools \
-        libcurl4 \
+        libcurl4 \  fdfasd
         curl \
         wget \
         cron \
