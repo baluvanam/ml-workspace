@@ -106,10 +106,13 @@ RUN \
         xclip \
         #clinfo prints all available information about all OpenCL platforms available on the system and the devices they expose 
         clinfo \
-        
+        # print user CPU time and system CPU time 
         time \
+        # part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet
         libssl-dev \
+        # These routines are provided to a programmer needing to create and manipulate a hashed database
         libgdbm-dev \
+        # This package contains the header files, static libraries and symbolic links that developers using ncursesw will need. 
         libncurses5-dev \
         libncursesw5-dev \
         # required by pyenv
