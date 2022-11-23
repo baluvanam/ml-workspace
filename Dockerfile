@@ -230,6 +230,7 @@ RUN \
     # Cleanup
     clean-layer.sh
 
+# open resty Nginx 
 RUN \
     OPEN_RESTY_VERSION="1.19.9.1" && \
     mkdir $RESOURCES_PATH"/openresty" && \
