@@ -137,11 +137,11 @@ define([
                 <span>Open Tool</span> <span class="caret"></span> </button> \
                 <ul id="start-tool" class="dropdown-menu" style="right: 0; left: auto;">' +
         tools_menu_items +
-        '<li role="presentation" class="divider"></li>' +
-        '<li><div style="display: block;padding: 3px 20px;clear: both;font-weight: 400;line-height: 1.42857143;color: #333333;white-space: nowrap;"><div>Do you like ML Workspace?</div><span style="display: block; color: #gray; padding: initial; font-size: 12px;"><a href="https://github.com/ml-tooling/ml-workspace" style="color: #333333;font-weight: 550;" target="_blank">Give us a star</a> or <a href="https://twitter.com/mltooling" style="color: #333333;font-weight: 550;" target="_blank">follow us on Twitter!</a></span></div></li>' +
-        " </ul> </div>";        
+        '<li role="presentation" class="divider"></li>' 
+//         +'<li><div style="display: block;padding: 3px 20px;clear: both;font-weight: 400;line-height: 1.42857143;color: #333333;white-space: nowrap;"><div>Do you like ML Workspace?</div><span style="display: block; color: #gray; padding: initial; font-size: 12px;"><a href="https://github.com/ml-tooling/ml-workspace" style="color: #333333;font-weight: 550;" target="_blank">Give us a star</a> or <a href="https://twitter.com/mltooling" style="color: #333333;font-weight: 550;" target="_blank">follow us on Twitter!</a></span></div></li>' +
+//         " </ul> </div>";        
 
-      $("#header-container").append(docs_button);
+//       $("#header-container").append(docs_button);
       $("#header-container").append(tools_dropwdown);
       
       $("#ssh-access").click(function () {
